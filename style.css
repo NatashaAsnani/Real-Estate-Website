@@ -1,0 +1,1464 @@
+.container-fluid{
+    overflow-x: hidden;
+}
+.nav-link.active {
+    color: #24fce6a0 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #24fce6a0;
+}
+.nav-link:hover{
+    color: #24fce6a0 !important;
+    font-weight: bold;
+}
+.navbar{
+    background-color: rgba(66, 66, 66, 0.705) !important;
+    font-weight: bold;
+
+}
+.logo{
+    width: 200px;
+}
+.bg{
+    border-radius: 25px;
+    padding-top: 63px !important;
+}
+.second{
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.largetext{
+    font-size: 55pt;
+    font-weight: bold;
+}
+.second h1{
+    margin-top: 50px;
+}
+.second h4{
+    padding-top: 80px;
+}
+.start{
+    margin-top: 70px;
+}
+.search{
+    border-radius: 25px;
+    background-color: cadetblue;
+    padding: 15px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+}
+.search:hover{
+    background-color: rgb(47, 106, 108);
+}
+.third{
+    padding-top: 80px;
+    position: relative;
+}
+.line{
+    position: absolute;
+    width: 80px !important;
+    left: 590px;
+    top: 250px;
+    color: rgb(54, 127, 129);
+}
+.line4{
+    position: absolute;
+    width: 80px !important;
+    left: 590px;
+    top: 250px;
+    color: rgb(54, 127, 129);
+}
+.four h6{
+    line-height: 25px;
+}
+
+.five{
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.354);
+}
+
+.num{
+    color: rgb(37, 115, 118);
+}
+.features span{
+    letter-spacing: 3px;
+}
+.feature1{
+    width: 380px;
+    border-radius: 25px;
+}
+.price{
+    color: rgb(54, 127, 129);
+    font-weight: bold;
+}
+
+.testimonial h1{
+    font-size: 45pt !important;
+}
+
+.line1{
+    width: 80px;
+    color: rgb(30, 94, 96);
+}
+
+.testimonial p{
+    font-size: larger;
+}
+
+.test{
+    border-radius: 30px;
+    background-color: cadetblue;
+    padding: 15px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
+.test:hover{
+    background-color: rgb(47, 106, 108);
+}
+
+.card1 p{
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.card1 span{
+    font-size: smaller;
+}
+.checked {
+    color: orange;
+}
+.connecting h1{
+    font-size: 40pt;
+}
+.connecting p{
+    font-size: larger;
+}
+.secondlast{
+    position: relative;
+}
+.forming form{
+    background-color: white !important;
+    border-radius: 25px;
+    height: 600px;
+    width: 800px;
+}
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.line2{
+    position: absolute;
+    left: 45%;
+    width: 80px;
+    color: rgb(30, 94, 96);
+}
+.call{
+    border-radius: 30px;
+    background-color: cadetblue;
+    padding: 15px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+
+.call:hover{
+    background-color: rgb(47, 106, 108);
+}
+.lastrow p{
+    font-size: large;
+}
+.social a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.social{
+    text-align: right;
+}
+.social a:hover{
+    color: rgb(47, 106, 108);
+}
+.line3{
+   color:  rgb(30, 94, 96);
+}
+.social a i{
+    font-size: 20px;
+}
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #26a69a;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+#scrollToTop:hover {
+    background: #00796b;
+}
+
+@media (min-width:320px) and (max-width:479px){
+    .logo{
+        width: 150px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 55px !important;
+        height: 500px !important;
+    }
+    .largetext{
+        font-size: 25pt;
+    }
+    .second h1{
+        margin-top: 50px;
+    }
+    .second h4{
+        padding-top: 80px;
+    }
+    .start{
+        margin-top: 50px !important;
+    }
+    .third{
+        padding-top: 80px;
+    }
+    .line{
+        width: 80px !important;
+        left: 160px;
+        top: 280px;
+        color: rgb(54, 127, 129);
+    }
+    .line4{
+        width: 80px !important;
+        left: 160px;
+        top: 230px;
+    }
+    .testimonial h1{
+        font-size: 30pt !important;
+    }
+    .testimonial p{
+        font-size: small;
+    }
+    
+    .test{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: small;
+    }
+    .card{
+        width: 380px !important;
+    }
+    .card1 p{
+        font-size: medium;
+    }
+    .card1 span{
+        font-size: small;
+    }
+    .connecting h1{
+        font-size: 30pt;
+    }
+    .connecting p{
+        font-size: medium;
+    }
+    .secondlast img{
+        height: 700px;
+    }
+    .forming form{
+        height: 550px;
+        width: 350px;
+    }
+    .forming textarea{
+        width: 350px !important;
+    }
+    .secondlast img{
+        height: 700px;
+    }
+    .centered1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .line2{
+        left: 38%;
+    }
+    .call{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: small;
+    }
+}
+@media (min-width: 480px) and (max-width: 659px){
+    .logo{
+        width: 150px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 55px !important;
+        height: 500px !important;
+    }
+    .largetext{
+        font-size: 25pt;
+    }
+    .second h1{
+        margin-top: 50px;
+    }
+    .second h4{
+        padding-top: 80px;
+    }
+    .start{
+        margin-top: 50px !important;
+    }
+    .third{
+        padding-top: 80px;
+    }
+    .line{
+        width: 80px !important;
+        left: 200px;
+        top: 230px;
+        color: rgb(54, 127, 129);
+    }
+    .line4{
+        width: 80px !important;
+        left: 210px;
+        top: 230px;
+    }
+    .testimonial h1{
+        font-size: 30pt !important;
+    }
+    .testimonial p{
+        font-size: small;
+    }
+    
+    .test{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: medium;
+    }
+    .card{
+        width: 460px !important;
+    }
+    .card1 p{
+        font-size: large;
+    }
+    .card1 span{
+        font-size: small;
+    }
+    .connecting h1{
+        font-size: 30pt;
+    }
+    .connecting p{
+        font-size: medium;
+    }
+    .secondlast img{
+        height: 700px;
+    }
+    .forming form{
+        height: 550px;
+        width: 450px;
+    }
+    .forming textarea{
+        width: 450px !important;
+    }
+    .secondlast img{
+        height: 700px;
+    }
+    .centered1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .line2{
+        left: 38%;
+    }
+    .call{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: small;
+    }
+}
+@media (min-width: 660px) and (max-width: 766px){
+    .logo{
+        width: 150px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 55px !important;
+        height: 500px !important;
+    }
+    .largetext{
+        font-size: 40pt;
+    }
+    .second h1{
+        margin-top: 50px;
+    }
+    .second h4{
+        padding-top: 80px;
+    }
+    .start{
+        margin-top: 50px !important;
+    }
+    .third{
+        padding-top: 80px;
+    }
+    .line{
+        width: 80px !important;
+        left: 290px;
+        top: 260px;
+        color: rgb(54, 127, 129);
+    }
+    .line4{
+        width: 80px !important;
+        left: 290px;
+        top: 200px;
+    }
+    .testimonial h1{
+        font-size: 40pt !important;
+    }
+    .testimonial p{
+        font-size: larger;
+    }
+    
+    .test{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: large;
+    }
+    .card{
+        width: 630px !important;
+    }
+    .card1 p{
+        font-size: larger;
+    }
+    .card1 span{
+        font-size: medium;
+    }
+    .connecting{
+        margin-top: 60px !important;
+    }
+    .connecting h1{
+        font-size: 35pt;
+    }
+    .connecting p{
+        font-size: larger;
+    }
+    .secondlast img{
+        height: 700px;
+    }
+    .forming form{
+        height: 550px;
+        width: 600px;
+    }
+    .forming textarea{
+        width: 600px !important;
+    }
+    .line2{
+        left: 43%;
+    }
+    .call{
+        font-size: medium;
+    }
+    .third h1{
+        font-size: 30pt;
+    }
+    .third p{
+        font-size: large;
+    }
+    .four h3{
+        font-size: x-large;
+    }
+    .four h6{
+        font-size: large;
+    }
+    .secondlast img{
+        height: 700px;
+    }
+    .five h1{
+        font-size: 30pt;
+    }
+    .five p{
+        font-size: large;
+    }
+    .feature1{
+        width: 630px;
+    }
+    .features h4{
+        font-size: xx-large;
+    }
+    .features p{
+        font-size: larger;
+    }
+}
+@media (min-width: 767px) and (max-width: 880px){
+    .logo{
+        width: 170px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 55px !important;
+        height: 530px !important;
+    }
+    .largetext{
+        font-size: 45pt;
+    }
+    .line{
+        left: 350px;
+        top: 255px;
+    }
+    .line4{
+        width: 80px !important;
+        left: 370px;
+        top: 200px;
+    }
+    .testimonial h1{
+        font-size: 33pt !important;
+    }
+    .testimonial p{
+        font-size: large;
+    }
+    
+    .test{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: medium;
+    }
+    .card{
+        width: 360px !important;
+    }
+    .card1 p{
+        font-size: medium;
+    }
+    .card1 span{
+        font-size: small;
+    }
+    .house img{
+        width: 380px !important;
+    }
+    .connecting h1{
+        font-size: 28pt;
+    }
+    .connecting p{
+        font-size: medium;
+    }
+    .forming form{
+        height: 600px;
+        width: 660px;
+    }
+    .forming textarea{
+        width: 660px !important;
+    }
+    .line2{
+        left: 43%;
+    }
+    .call{
+        font-size: medium;
+    }
+    .third h1{
+        font-size: 30pt;
+    }
+    .third p{
+        font-size: large;
+    }
+    .four h3{
+        font-size: x-large;
+    }
+    .four h6{
+        font-size: large;
+    }
+    .five h1{
+        font-size: 30pt;
+    }
+    .five p{
+        font-size: large;
+    }
+    .secondlast img{
+        height: 800px;
+    }
+    .feature1{
+        width: 250px;
+    }
+    .features h4{
+        font-size: larger;
+    }
+    .features p{
+        font-size: medium;
+    }
+} 
+@media (min-width: 881px) and (max-width: 990px){
+    .logo{
+        width: 190px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 57px !important;
+        height: 560px !important;
+    }
+    .largetext{
+        font-size: 50pt;
+    }
+    .line{
+        left: 420px;
+        top: 255px;
+    }
+    .line4{
+        width: 80px !important;
+        left: 420px;
+        top: 200px;
+    }
+    .testimonial h1{
+        font-size: 35pt !important;
+    }
+    .testimonial p{
+        font-size: large;
+    }
+    
+    .test{
+        padding: 10px;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+        font-size: large;
+    }
+    .card{
+        width: 410px !important;
+    }
+    .card1 p{
+        font-size: large;
+    }
+    .card1 span{
+        font-size: medium;
+    }
+    .house img{
+        width: 430px !important;
+    }
+    .connecting h1{
+        font-size: 32pt;
+    }
+    .connecting p{
+        font-size: large;
+    }
+    .forming form{
+        height: 600px;
+        width: 650px;
+    }
+    .forming textarea{
+        width: 650px !important;
+    }
+    .line2{
+        left: 43%;
+    }
+    .call{
+        font-size: large;
+    }
+    .third h1{
+        font-size: 30pt;
+    }
+    .third p{
+        font-size: large;
+    }
+    .four h3{
+        font-size: x-large;
+    }
+    .four h6{
+        font-size: large;
+    }
+    .five h1{
+        font-size: 30pt;
+    }
+    .five p{
+        font-size: large;
+    }
+    .secondlast img{
+        height: 800px;
+    }
+    .feature1{
+        width: 280px;
+    }
+    .features h4{
+        font-size: larger;
+    }
+    .features p{
+        font-size: medium;
+    }
+} 
+@media (min-width: 991px) and (max-width: 1090px){
+    .logo{
+        width: 195px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 63px !important;
+        height: 620px !important;
+    }
+    .largetext{
+        font-size: 55pt;
+    }
+    .line{
+        left: 470px;
+        top: 255px;
+    }
+    .line4{
+        width: 80px !important;
+        left: 470px;
+        top: 220px;
+    }
+    .testimonial h1{
+        font-size: 38pt !important;
+    }
+    .testimonial p{
+        font-size: large;
+    }
+    
+    .test{
+        padding: 10px;
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        font-size: larger;
+    }
+    .card{
+        width: 470px !important;
+    }
+    .card1 p{
+        font-size: large;
+    }
+    .card1 span{
+        font-size: medium;
+    }
+    .house img{
+        width: 480px !important;
+    }
+    .connecting h1{
+        font-size: 35pt;
+    }
+    .connecting p{
+        font-size: larger;
+    }
+    .forming form{
+        height: 600px;
+        width: 680px;
+    }
+    .forming textarea{
+        width: 680px !important;
+    }
+    .line2{
+        left: 43%;
+    }
+    .call{
+        font-size: large;
+    }
+    .third h1{
+        font-size: 30pt;
+    }
+    .third p{
+        font-size: large;
+    }
+    .four h3{
+        font-size: x-large;
+    }
+    .four h6{
+        font-size: large;
+    }
+    .five h1{
+        font-size: 30pt;
+    }
+    .five p{
+        font-size: large;
+    }
+    .secondlast img{
+        height: 800px;
+    }
+    .feature1{
+        width: 320px;
+    }
+    .features h4{
+        font-size: x-large;
+    }
+    .features p{
+        font-size: large;
+    }
+} 
+@media (min-width: 1091px) and (max-width: 1200px){
+    .logo{
+        width: 200px;
+    }
+    .bg{
+        margin-top: 0px !important;
+        padding-top: 64px !important;
+        height: 650px !important;
+    }
+    .largetext{
+        font-size: 55pt;
+    }
+    .line{
+        left: 510px;
+        top: 255px;
+    }
+    .line4{
+        width: 80px !important;
+        left: 510px;
+        top: 220px;
+    }
+    .testimonial h1{
+        font-size: 40pt !important;
+    }
+    .testimonial p{
+        font-size: large;
+    }
+    
+    .test{
+        padding: 15px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        font-size: larger;
+    }
+    .card{
+        width: 500px !important;
+    }
+    .card1 p{
+        font-size: large;
+    }
+    .card1 span{
+        font-size: medium;
+    }
+    .house img{
+        width: 530px !important;
+    }
+    .connecting h1{
+        font-size: 40pt;
+    }
+    .connecting p{
+        font-size: larger;
+    }
+    .forming form{
+        height: 600px;
+        width: 700px;
+    }
+    .forming textarea{
+        width: 700px !important;
+    }
+    .line2{
+        left: 43%;
+    }
+    .call{
+        font-size: large;
+    }
+    .third h1{
+        font-size: 30pt;
+    }
+    .third p{
+        font-size: large;
+    }
+    .four h3{
+        font-size: x-large;
+    }
+    .four h6{
+        font-size: large;
+    }
+    .five h1{
+        font-size: 30pt;
+    }
+    .five p{
+        font-size: large;
+    }
+    .secondlast img{
+        height: 800px;
+    }
+    .feature1{
+        width: 350px;
+    }
+    .features h4{
+        font-size: x-large;
+    }
+    .features p{
+        font-size: large;
+    }
+} 
+@media (min-width: 1400px) and (max-width: 1600px){
+    .logo{
+        width: 220px;
+    }
+    .bg{
+        padding-top: 69px !important;
+    }
+    .largetext{
+        font-size: 60pt;
+    }
+    .search{
+        font-size: larger;
+    }
+    .line{
+        left: 670px;
+        top: 290px;
+    }
+    .line4{
+        left: 660px;
+        top: 250px;
+    }
+    .testimonial h1{
+        font-size: 50pt !important;
+    }
+    .testimonial p{
+        font-size: x-large;
+    }
+    
+    .test{
+        padding: 15px;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+        font-size: 23px;
+    }
+    .card{
+        width: 650px !important;
+    }
+    .card1 p{
+        font-size: x-large;
+    }
+    .card1 span{
+        font-size: larger;
+    }
+    .house img{
+        width: 680px !important;
+    }
+    .connecting h1{
+        font-size: 45pt;
+    }
+    .connecting p{
+        font-size: 22px;
+    }
+    .forming form{
+        height: 650px;
+        width: 850px;
+    }
+    form label{
+        font-size: x-large !important;
+    }
+    .forming textarea{
+        width: 850px !important;
+    }
+    .call{
+        font-size: 20px;
+    }
+    .third h1{
+        font-size: 40pt;
+    }
+    .third p{
+        font-size: x-large;
+    }
+    .four .num{
+        font-size: large !important;
+    }
+    .four h3{
+        font-size: xx-large;
+    }
+    .four h6{
+        font-size: larger;
+    }
+    .five h1{
+        font-size: 35pt;
+    }
+    .five p{
+        font-size: x-large;
+    }
+    .secondlast img{
+        height: 850px;
+    }
+    .feature1{
+        width: 430px;
+    }
+    .features span{
+        font-size: large !important;
+    }
+    .lastrow1 h6{
+        font-size: larger;
+    }
+    .navbar{
+        font-size: x-large !important;
+    }
+    .nav-link{
+        font-size: 22px !important;
+    }
+    .any{
+        font-size: large !important;
+    }
+} 
+@media (min-width: 1601px) and (max-width: 1850px){
+    .logo{
+        width: 280px;
+    }
+    .bg{
+        padding-top: 120px !important;
+    }
+    .largetext{
+        font-size: 75pt;
+    }
+    .search{
+        font-size: x-large;
+    }
+    .line{
+        width: 130px !important;
+        left: 840px;
+        top: 320px;
+    }
+    .line4{
+        left: 830px;
+        top: 260px;
+    }
+    .testimonial h1{
+        font-size: 55pt !important;
+    }
+    .testimonial p{
+        font-size: 28px;
+    }
+    .test{
+        padding: 15px;
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+        font-size: 26px;
+    }
+    .card{
+        width: 800px !important;
+    }
+    .card1 p{
+        font-size: 28px;
+    }
+    .card1 span{
+        font-size: x-large;
+    }
+    .card1 h6{
+        font-size: larger;
+    }
+    .house img{
+        width: 800px !important;
+        height: 650px;
+    }
+    .connecting h1{
+        font-size: 50pt;
+    }
+    .connecting p{
+        font-size: 28px;
+    }
+    .forming form{
+        height: 700px;
+        width: 900px;
+    }
+    form label{
+        font-size: x-large !important;
+    }
+    .forming textarea{
+        width: 900px !important;
+    }
+    .call{
+        font-size: 25px;
+    }
+    .third h1{
+        font-size: 50pt;
+    }
+    .third p{
+        font-size: 28px;
+    }
+    .four .num{
+        font-size: x-large !important;
+    }
+    .four h3{
+        font-size: 35px;
+    }
+    .four h6{
+        font-size: x-large;
+    }
+    .five h1{
+        font-size: 45pt;
+    }
+    .five p{
+        font-size: x-large;
+    }
+    .secondlast img{
+        height: 950px;
+    }
+    .feature1{
+        width: 430px;
+    }
+    .features span{
+        font-size: x-large !important;
+    }
+    .lastrow1 h6{
+        font-size: x-large;
+    }
+    .navbar{
+        font-size: x-large !important;
+        padding: 30px !important;
+    }
+    .nav-link{
+        font-size: 25px !important;
+    }
+    .any{
+        font-size: 20px !important;
+    }
+    .feature1{
+        width: 530px;
+    }
+    .features h4{
+        font-size: 35px;
+    }
+    .features p{
+        font-size: x-large;
+    }
+    .lastrow img{
+        width: 300px;
+    }
+    .lastrow h2{
+        font-size: 40px;
+    }
+    .lastrow p{
+        font-size: 25px;
+    }
+    .lastrow1 a i{
+        font-size: 30px;
+    }
+    #scrollToTop {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+}
+@media (min-width: 1851px) and (max-width: 2000px){
+    .logo{
+        width: 310px;
+    }
+    .bg{
+        padding-top: 142px !important;
+        height: 1100px;
+    }
+    .discover{
+        font-size: 30px;
+    }
+    .largetext{
+        font-size: 85pt;
+    }
+    .search{
+        font-size: xx-large;
+    }
+    .line{
+        width: 130px !important;
+        left: 840px;
+        top: 320px;
+    }
+    .line4{
+        left: 830px;
+        top: 260px;
+    }
+    .testimonial h1{
+        font-size: 65pt !important;
+    }
+    .testimonial p{
+        font-size: 30px;
+    }
+    .test{
+        padding: 20px;
+        padding-left: 75px !important;
+        padding-right: 75px !important;
+        font-size: 30px;
+    }
+    .card{
+        width: 900px !important;
+    }
+    .card1 p{
+        font-size: 32px;
+    }
+    .card1 span{
+        font-size: x-large;
+    }
+    .card1 h6{
+        font-size: x-large;
+    }
+    .house img{
+        width: 900px !important;
+        height: 800px;
+    }
+    .connecting h1{
+        font-size: 60pt;
+    }
+    .connecting p{
+        font-size: 32px;
+    }
+    .forming form{
+        height: 870px;
+        width: 1050px;
+    }
+    form p{
+        font-size: xx-large;
+    }
+    form h2{
+        font-size: 45px;
+    }
+    form label{
+        font-size: 32px !important;
+    }
+    form input{
+        font-size: 35px !important;
+    }
+    .forming textarea{
+        width: 1050px !important;
+    }
+    .call{
+        font-size: 30px;
+    }
+    .third h1{
+        font-size: 55pt;
+    }
+    .third p{
+        font-size: 32px;
+    }
+    .four .num{
+        font-size: 32px !important;
+    }
+    .four h3{
+        font-size: 38px;
+    }
+    .four h6{
+        font-size: x-large;
+    }
+    .five h1{
+        font-size: 50pt;
+    }
+    .five p{
+        font-size: xx-large;
+    }
+    .secondlast img{
+        height: 1200px;
+    }
+    .feature1{
+        width: 430px;
+    }
+    .features span{
+        font-size: xx-large !important;
+    }
+    .lastrow1 h6{
+        font-size: xx-large;
+    }
+    .navbar{
+        font-size: x-large !important;
+        padding: 30px !important;
+    }
+    .nav-link{
+        font-size: 30px !important;
+    }
+    .any{
+        font-size: 28px !important;
+    }
+    .feature1{
+        width: 600px;
+    }
+    .features h4{
+        font-size: 40px;
+    }
+    .features p{
+        font-size: 26px;
+    }
+    .lastrow img{
+        width: 300px;
+    }
+    .lastrow h2{
+        font-size: 40px;
+    }
+    .lastrow p{
+        font-size: 25px;
+    }
+    .lastrow1 a i{
+        font-size: 35px;
+    }
+    .icon{
+        font-size: xx-large;
+    }
+    #scrollToTop {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+} 
+@media (min-width: 1851px) and (max-width: 2000px){
+    .logo{
+        width: 310px;
+    }
+    .bg{
+        padding-top: 142px !important;
+        height: 1100px;
+    }
+    .discover{
+        font-size: 30px;
+    }
+    .largetext{
+        font-size: 85pt;
+    }
+    .search{
+        font-size: xx-large;
+    }
+    .line{
+        width: 130px !important;
+        left: 840px;
+        top: 320px;
+    }
+    .line4{
+        left: 830px;
+        top: 260px;
+    }
+    .testimonial h1{
+        font-size: 65pt !important;
+    }
+    .testimonial p{
+        font-size: 30px;
+    }
+    .test{
+        padding: 20px;
+        padding-left: 75px !important;
+        padding-right: 75px !important;
+        font-size: 30px;
+    }
+    .card{
+        width: 900px !important;
+    }
+    .card1 p{
+        font-size: 32px;
+    }
+    .card1 span{
+        font-size: x-large;
+    }
+    .card1 h6{
+        font-size: x-large;
+    }
+    .house img{
+        width: 900px !important;
+        height: 800px;
+    }
+    .connecting h1{
+        font-size: 60pt;
+    }
+    .connecting p{
+        font-size: 32px;
+    }
+    .forming form{
+        height: 870px;
+        width: 1050px;
+    }
+    form p{
+        font-size: xx-large;
+    }
+    form h2{
+        font-size: 45px;
+    }
+    form label{
+        font-size: 32px !important;
+    }
+    form input{
+        font-size: 35px !important;
+    }
+    .forming textarea{
+        width: 1050px !important;
+    }
+    .call{
+        font-size: 30px;
+    }
+    .third h1{
+        font-size: 55pt;
+    }
+    .third p{
+        font-size: 32px;
+    }
+    .four .num{
+        font-size: 32px !important;
+    }
+    .four h3{
+        font-size: 38px;
+    }
+    .four h6{
+        font-size: x-large;
+    }
+    .five h1{
+        font-size: 50pt;
+    }
+    .five p{
+        font-size: xx-large;
+    }
+    .secondlast img{
+        height: 1200px;
+    }
+    .feature1{
+        width: 430px;
+    }
+    .features span{
+        font-size: xx-large !important;
+    }
+    .lastrow1 h6{
+        font-size: xx-large;
+    }
+    .navbar{
+        font-size: x-large !important;
+        padding: 30px !important;
+    }
+    .nav-link{
+        font-size: 30px !important;
+    }
+    .any{
+        font-size: 28px !important;
+    }
+    .feature1{
+        width: 600px;
+    }
+    .features h4{
+        font-size: 40px;
+    }
+    .features p{
+        font-size: 26px;
+    }
+    .lastrow img{
+        width: 300px;
+    }
+    .lastrow h2{
+        font-size: 40px;
+    }
+    .lastrow p{
+        font-size: 25px;
+    }
+    .lastrow1 a i{
+        font-size: 35px;
+    }
+    .icon{
+        font-size: xx-large;
+    }
+    #scrollToTop {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+} 
