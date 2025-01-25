@@ -13,14 +13,17 @@
 .navbar{
     background-color: rgba(66, 66, 66, 0.705) !important;
     font-weight: bold;
-
+}
+.nav-link{
+    padding: 15px !important;
+    font-size: large;
 }
 .logo{
     width: 200px;
 }
 .bg{
     border-radius: 25px;
-    padding-top: 63px !important;
+    padding-top: 75px !important;
 }
 .second{
     position: relative;
@@ -72,7 +75,7 @@
     position: absolute;
     width: 80px !important;
     left: 590px;
-    top: 250px;
+    top: 200px;
     color: rgb(54, 127, 129);
 }
 .four h6{
