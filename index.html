@@ -213,7 +213,7 @@
             </div>
             <div class="row lastrow my-5">
                 <div class="col-12 col-md-3 py-5">
-                    <img src="./images/footer-logo.svg" alt="">
+                    <img src="./images/footer-logo.svg" alt="" class="footer">
                 </div>
                 <div class="col-12 col-md-3 py-5">
                     <h2>About Us</h2>
@@ -255,25 +255,5 @@
         </section>
         <div id="scrollToTop">&#8679;</div>     
     </div>
-
-    <script>
-         // Show the scroller when scrolling down
-        window.addEventListener("scroll", function () {
-        const scroller = document.getElementById("scrollToTop");
-        if (window.scrollY > 100) {
-            scroller.style.display = "flex";
-        } else {
-            scroller.style.display = "none";
-        }
-    });
-
-// Smooth scroll to the top on click
-    document.getElementById("scrollToTop").addEventListener("click", function () {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-    </script>
 </body>
 </html>

@@ -1,78 +1,24 @@
-// gsap.from(".centered h1", {
-//     y: 50,
-//     opacity: 0,
-//     duration: 1,
-//     delay: 0.5,
-//   });
-//   gsap.from(".centered button", {
-//     scale: 0.8,
-//     opacity: 0,
-//     duration: 1,
-//     delay: 1,
-//     ease: "elastic.out(1, 0.3)",
-//   });
-  
+// Smooth scroll to the top on click
+document.getElementById("scrollToTop").addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
 
-// gsap.from(".imgcol img", {
-//     x: -200,
-//     opacity: 0,
-//     duration: 1,
-//     ease: "power2.out",
-//   });
-//   gsap.from(".connecting", {
-//     x: 200,
-//     opacity: 0,
-//     duration: 1,
-//     ease: "power2.out",
-//     delay: 0.3,
-//   });
-  
-//   gsap.from(".card", {
-//     y: 50,
-//     rotate: 3,
-//     opacity: 0,
-//     duration: 1,
-//     stagger: 0.3,
-//     ease: "power2.out",
-//   });
+// Add active class on click
+const navLinks = document.querySelectorAll(".nav-link");
 
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     gsap.from("#about .imgcol img", {
-//         x: -100,
-//         opacity: 0,
-//         duration: 1,
-//         ease: "power3.out",
-//         scrollTrigger: {
-//             trigger: "#about",
-//             start: "top 90%", 
-//         },
-//     });
-
-//     gsap.from("#services .third", {
-//         y: 50,
-//         opacity: 0,
-//         duration: 1,
-//         stagger: 0.2,
-//         ease: "power3.out",
-//         scrollTrigger: {
-//             trigger: "#services",
-//             start: "top 80%",
-//         },
-//     });
-
-//     gsap.from("#contact form", {
-//         scale: 0.9,
-//         opacity: 0,
-//         duration: 1,
-//         ease: "power3.out",
-//         scrollTrigger: {
-//             trigger: "#contact",
-//             start: "top 85%",
-//         },
-//     });
-// });
-// Set up canvas for the stars
+// Listen for click events on navbar links
+navLinks.forEach(link => {
+    link.addEventListener("click", function (event) {
+        // Remove active class from all nav-links
+        navLinks.forEach(link => link.classList.remove("active"));
+        
+        // Add active class to the clicked nav-link
+        event.target.classList.add("active");
+    });
+});
 
 
 // Ensure the DOM is loaded before executing GSAP animations

@@ -199,6 +199,9 @@
 .line3{
    color:  rgb(30, 94, 96);
 }
+.footer{
+    width: 200px;
+}
 .social a i{
     font-size: 20px;
 }
