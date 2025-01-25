@@ -107,7 +107,6 @@
     width: 80px;
     color: rgb(30, 94, 96);
 }
-
 .testimonial p{
     font-size: larger;
 }
@@ -1101,9 +1100,6 @@
     .secondlast img{
         height: 950px;
     }
-    .feature1{
-        width: 430px;
-    }
     .features span{
         font-size: x-large !important;
     }
@@ -1254,9 +1250,6 @@
     .secondlast img{
         height: 1200px;
     }
-    .feature1{
-        width: 430px;
-    }
     .features span{
         font-size: xx-large !important;
     }
@@ -1305,159 +1298,355 @@
     }
 
 } 
-@media (min-width: 1851px) and (max-width: 2000px){
+@media (min-width: 2001px) and (max-width: 2500px){
     .logo{
-        width: 310px;
+        width: 340px;
     }
     .bg{
-        padding-top: 142px !important;
-        height: 1100px;
+        padding-top: 164px !important;
+        height: 1250px;
     }
     .discover{
-        font-size: 30px;
+        font-size: 40px;
     }
     .largetext{
-        font-size: 85pt;
+        font-size: 95pt;
     }
     .search{
-        font-size: xx-large;
+        font-size: 35px;
     }
     .line{
-        width: 130px !important;
-        left: 840px;
-        top: 320px;
+        width: 190px !important;
+        left: 1030px;
+        top: 380px;
+        color: #0c5f55 !important;
+    }
+    .line1{
+        width: 180px !important;
+        color: #0c5f55 !important;
+    }
+    .line2{
+        width: 180px !important;
+        color: #0c5f55 !important;
     }
     .line4{
-        left: 830px;
-        top: 260px;
+        left: 1050px;
+        top: 320px;
+        width: 150px !important;
+        color: #0c5f55 !important;
     }
     .testimonial h1{
-        font-size: 65pt !important;
+        font-size: 75pt !important;
     }
     .testimonial p{
-        font-size: 30px;
+        font-size: 35px;
     }
     .test{
-        padding: 20px;
-        padding-left: 75px !important;
-        padding-right: 75px !important;
-        font-size: 30px;
-    }
-    .card{
-        width: 900px !important;
-    }
-    .card1 p{
-        font-size: 32px;
-    }
-    .card1 span{
-        font-size: x-large;
-    }
-    .card1 h6{
-        font-size: x-large;
-    }
-    .house img{
-        width: 900px !important;
-        height: 800px;
-    }
-    .connecting h1{
-        font-size: 60pt;
-    }
-    .connecting p{
-        font-size: 32px;
-    }
-    .forming form{
-        height: 870px;
-        width: 1050px;
-    }
-    form p{
-        font-size: xx-large;
-    }
-    form h2{
-        font-size: 45px;
-    }
-    form label{
-        font-size: 32px !important;
-    }
-    form input{
-        font-size: 35px !important;
-    }
-    .forming textarea{
-        width: 1050px !important;
-    }
-    .call{
-        font-size: 30px;
-    }
-    .third h1{
-        font-size: 55pt;
-    }
-    .third p{
-        font-size: 32px;
-    }
-    .four .num{
-        font-size: 32px !important;
-    }
-    .four h3{
+        padding: 30px;
+        padding-left: 90px !important;
+        padding-right: 90px !important;
         font-size: 38px;
     }
-    .four h6{
-        font-size: x-large;
+    .card{
+        width: 1000px !important;
     }
-    .five h1{
-        font-size: 50pt;
+    .card1 p{
+        font-size: 35px;
     }
-    .five p{
+    .card1 span{
+        font-size: 28px;
+    }
+    .card1 h6{
         font-size: xx-large;
     }
-    .secondlast img{
-        height: 1200px;
+    .house img{
+        width: 1060px !important;
+        height: 950px;
     }
-    .feature1{
-        width: 430px;
+    .connecting h1{
+        font-size: 70pt;
+    }
+    .connecting p{
+        font-size: 36px;
+    }
+    .forming form{
+        height: 900px;
+        width: 1200px;
+    }
+    form p{
+        font-size: 28px;
+    }
+    form h2{
+        font-size: 60px;
+    }
+    form label{
+        font-size: 35px !important;
+    }
+    form input{
+        font-size: 40px !important;
+    }
+    .forming textarea{
+        width: 1200px !important;
+    }
+    .call{
+        font-size: 35px;
+    }
+    .third h1{
+        font-size: 58pt;
+    }
+    .third p{
+        font-size: 35px;
+    }
+    .four .num{
+        font-size: 36px !important;
+    }
+    .four h3{
+        font-size: 43px;
+    }
+    .four h6{
+        font-size: xx-large;
+        line-height: normal;
+    }
+    .five h1{
+        font-size: 55pt;
+    }
+    .five p{
+        font-size: 33px;
+    }
+    .secondlast img{
+        height: 1300px;
     }
     .features span{
         font-size: xx-large !important;
     }
     .lastrow1 h6{
-        font-size: xx-large;
-    }
-    .navbar{
-        font-size: x-large !important;
-        padding: 30px !important;
-    }
-    .nav-link{
-        font-size: 30px !important;
-    }
-    .any{
-        font-size: 28px !important;
-    }
-    .feature1{
-        width: 600px;
-    }
-    .features h4{
-        font-size: 40px;
-    }
-    .features p{
-        font-size: 26px;
-    }
-    .lastrow img{
-        width: 300px;
-    }
-    .lastrow h2{
-        font-size: 40px;
-    }
-    .lastrow p{
-        font-size: 25px;
-    }
-    .lastrow1 a i{
         font-size: 35px;
     }
+    .navbar{
+        padding: 35px !important;
+    }
+    .nav-link{
+        font-size: 35px !important;
+    }
+    .any{
+        font-size: 32px !important;
+    }
+    .feature1{
+        width: 700px;
+    }
+    .features h4{
+        font-size: 43px;
+    }
+    .features p{
+        font-size: 32px;
+    }
+    .lastrow img{
+        width: 350px;
+    }
+    .lastrow h2{
+        font-size: 55px;
+    }
+    .lastrow p{
+        font-size: 35px;
+    }
+    .lastrow1 a i{
+        font-size: 40px;
+    }
     .icon{
-        font-size: xx-large;
+        font-size: 40px;
     }
     #scrollToTop {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+} 
+@media (min-width: 2500px) and (max-width: 4000px){
+    .logo{
+        width: 380px;
+    }
+    .bg{
+        padding-top: 191px !important;
+        height: 1400px;
+    }
+    .discover{
+        font-size: 45px;
+    }
+    .largetext{
+        font-size: 105pt;
+    }
+    .search{
         font-size: 40px;
+    }
+    .line{
+        width: 250px !important;
+        left: 1230px;
+        top: 420px;
+        color: #0c5f55 !important;
+    }
+    .connecting{
+        position: relative;
+        top: 150px !important;
+    }
+    .imgcol{
+        padding-top: 150px !important;
+    }
+
+    .line1{
+        width: 230px !important;
+        position: absolute;
+        top: 480px !important;
+        color: #0c5f55 !important;
+    }
+    .line2{
+        width: 180px !important;
+        color: #0c5f55 !important;
+    }
+    .line4{
+        left: 1230px;
+        top: 400px;
+        width: 200px !important;
+        color: #0c5f55 !important;
+    }
+    .testimonial h1{
+        font-size: 90pt !important;
+    }
+    .testimonial p{
+        padding-top: 50px;
+        font-size: 44px;
+    }
+    .read-top{
+        margin-top: 80px !important;
+    }
+    .test{
+        padding: 30px;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        font-size: 43px;
+    }
+    .card{
+        width: 1280px !important;
+    }
+    .card1 p{
+        font-size: 45px;
+    }
+    .card1 span{
+        font-size: 35px;
+    }
+    .card1 h6{
+        font-size: 35px;
+    }
+    .house img{
+        width: 1300px !important;
+        height: 1200px;
+    }
+    .connecting h1{
+        font-size: 85pt;
+    }
+    .connecting p{
+        padding-top: 100px;
+        font-size: 43px;
+    }
+    .forming form{
+        height: 1100px;
+        width: 1500px;
+    }
+    form p{
+        font-size: 38px;
+    }
+    form h2{
+        font-size: 75px;
+    }
+    form label{
+        font-size: 45px !important;
+    }
+    form input{
+        font-size: 50px !important;
+    }
+    .forming textarea{
+        width: 1500px !important;
+    }
+    .call{
+        font-size: 45px;
+    }
+    .third h1{
+        font-size: 65pt;
+    }
+    .third p{
+        font-size: 40px;
+    }
+    .four .num{
+        font-size: 45px !important;
+    }
+    .four h3{
+        font-size: 60px;
+    }
+    .four h6{
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .five{
+        margin-top: 200px !important;
+    }
+    .five h1{
+        font-size: 65pt;
+    }
+    .five p{
+        font-size: 40px;
+    }
+    .secondlast img{
+        height: 1600px;
+    }
+    .feature1{
+        width: 850px !important;
+    }
+    .features{
+        padding-top: 130px;
+    }
+    .features span{
+        font-size: 45px !important;
+    }
+    .lastrow1 h6{
+        font-size: 45px;
+    }
+    .navbar{
+        padding: 40px !important;
+    }
+    .nav-link{
+        font-size: 40px !important;
+        padding: 25px !important;
+    }
+    .any{
+        font-size: 35px !important;
+    }
+    .features h4{
+        font-size: 55px;
+    }
+    .features p{
+        font-size: 40px;
+    }
+    .lastrow img{
+        width: 450px;
+    }
+    .lastrow h2{
+        font-size: 65px;
+    }
+    .lastrow p{
+        font-size: 45px;
+    }
+    .lastrow1 a i{
+        font-size: 50px;
+        padding: 20px;
+    }
+    .icon{
+        font-size: 50px;
+    }
+    #scrollToTop {
+        width: 120px;
+        height: 120px;
+        font-size: 65px;
         font-weight: bold;
     }
 
