@@ -6,6 +6,41 @@ document.getElementById("scrollToTop").addEventListener("click", function () {
     });
 });
 
+
+// Show the scroller when scrolling down
+window.addEventListener("scroll", function () {
+    const scroller = document.getElementById("scrollToTop");
+    if (window.scrollY > 100) {
+        scroller.style.display = "flex";
+    } else {
+        scroller.style.display = "none";
+    }
+});
+
+// Smooth scroll to the top on click
+document.getElementById("scrollToTop").addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
+// Hide the scroller on reload if we're on the home section
+window.addEventListener("load", function () {
+    const scroller = document.getElementById("scrollToTop");
+    if (window.scrollY === 0) {
+        scroller.style.display = "none";
+    }
+});
+
+// Smooth scroll to the top on click
+document.getElementById("scrollToTop").addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
 // Add active class on click
 const navLinks = document.querySelectorAll(".nav-link");
 
