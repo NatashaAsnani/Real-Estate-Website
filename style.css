@@ -226,6 +226,16 @@
     background: #00796b;
 }
 
+.navbar-toggler:focus {
+  outline: none; /* Removes the default outline */
+  box-shadow: none !important; /* Removes the shadow and ensures it works */
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
 @media (min-width:320px) and (max-width:479px){
     .logo{
         width: 150px;
