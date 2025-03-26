@@ -236,6 +236,103 @@
     outline: none !important;
 }
 
+
+
+.loading {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.loading span {
+    display: inline-block;
+    animation: loading-dots 1.5s infinite ease-in-out;
+}
+
+.loading span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes loading-dots {
+    0% { opacity: 0.3; transform: translateY(0px); }
+    50% { opacity: 1; transform: translateY(-5px); }
+    100% { opacity: 0.3; transform: translateY(0px); }
+}
+
+.custom-btn {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: black; /* Default color */
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+    cursor: pointer;
+    /* min-width: auto; */
+}
+
+
+.btn-group .btn {
+    font-size: initial; /* Normal text size wapas lane ke liye */
+}
+
+
+.custom-btn i {
+    font-size: 22px;
+}
+
+.custom-btn.active {
+    color: gray; /* Active button color */
+    transition: none;
+}
+
+
+/* Style the buttons */
+.filter-btn {
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 20px !important;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    color: black;
+}
+
+
+.filter-btn.active {
+    color: grey !important; /* Ensure text turns grey immediately */
+}
+
+.filter-btn.active:hover {
+    color: grey !important; /* Prevent text from turning black on hover */
+}
+
+
+.filter-btn:focus, .filter-btn:focus-visible, .filter-btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.filter-btn.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: green;
+}
+
+
+
+
 @media (min-width:320px) and (max-width:479px){
     .logo{
         width: 150px;

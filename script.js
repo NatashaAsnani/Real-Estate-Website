@@ -17,15 +17,7 @@ window.addEventListener("scroll", function () {
     }
 });
 
-// Smooth scroll to the top on click
-document.getElementById("scrollToTop").addEventListener("click", function () {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
-
-// Hide the scroller on reload if we're on the home section
+// Hide the 'scroll to top' button when the page loads if already at the top
 window.addEventListener("load", function () {
     const scroller = document.getElementById("scrollToTop");
     if (window.scrollY === 0) {
@@ -33,18 +25,8 @@ window.addEventListener("load", function () {
     }
 });
 
-// Smooth scroll to the top on click
-document.getElementById("scrollToTop").addEventListener("click", function () {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
-
-// Add active class on click
+// Add 'active' class to the clicked navigation link for styling purposes
 const navLinks = document.querySelectorAll(".nav-link");
-
-// Listen for click events on navbar links
 navLinks.forEach(link => {
     link.addEventListener("click", function (event) {
         // Remove active class from all nav-links
@@ -55,8 +37,103 @@ navLinks.forEach(link => {
     });
 });
 
+// Functionality for filtering sections based on button clicks
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const loading = document.getElementById("loading");
 
-// Ensure the DOM is loaded before executing GSAP animations
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            const target = this.getAttribute("data-target");
+            const targetSection = document.querySelector(`.row.main[data-filter='${target}']`);
+
+            if (!targetSection) {
+                console.error("Target section not found:", target);
+                return;
+            }
+
+            // Sab kuch temporarily hide karna (Chahe listings ho ya sirf "No listing found")
+            const elementsToHide = targetSection.children; 
+            for (let elem of elementsToHide) {
+                elem.style.display = "none";
+            }
+
+            // Show loading animation
+            loading.style.display = "block";
+
+            setTimeout(() => {
+                // Hide loading animation
+                loading.style.display = "none";
+
+                // Sab kuch wapas show karna
+                for (let elem of elementsToHide) {
+                    elem.style.display = "block";
+                }
+
+            }, 1500); // Delay for loading effect
+        });
+    });
+});
+
+
+
+
+// Toggle 'active' class for buttons on click
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".custom-btn");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            buttons.forEach(btn => btn.classList.remove("active")); // Remove 'active' from all buttons
+            this.classList.add("active"); // Add 'active' only to the clicked button
+        });
+    });
+});
+
+// Filter sections for carousel content based on button click
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const carouselSections = document.querySelectorAll("#carouselContainer .row");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            // Update active button styling
+            buttons.forEach(btn => btn.classList.remove("custom-btn"));
+            this.classList.add("custom-btn");
+
+            // Get the selected category
+            const target = this.getAttribute("data-target");
+
+            // Hide/show carousel sections based on filter
+            carouselSections.forEach(section => {
+                if (section.getAttribute("data-filter") === target) {
+                    section.style.display = "flex";
+                } else {
+                    section.style.display = "none";
+                }
+            });
+        });
+    });
+
+    // Default show only 'latest' category
+    carouselSections.forEach(section => {
+        if (section.getAttribute("data-filter") !== "latest") {
+            section.style.display = "none";
+        }
+    });
+});
+
+
+
+document.querySelectorAll(".filter-btn").forEach((btn) => {
+    btn.addEventListener("click", function () {
+        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+    });
+});
+
+
+// GSAP animations for different sections with scroll trigger
 document.addEventListener("DOMContentLoaded", () => {
     // Hero Section Animation
     gsap.from("#home .centered", {
@@ -66,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ease: "power3.out",
         scrollTrigger: {
             trigger: "#home",
-            start: "top center", // Trigger when the top of the section hits the center of the viewport
+            start: "top center",
         },
     });
 
@@ -78,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ease: "power3.out",
         scrollTrigger: {
             trigger: "#about",
-            start: "top 80%", // Trigger slightly before the section enters
+            start: "top 80%",
         },
     });
 
