@@ -56,13 +56,31 @@
 
         <section id="home">
             <div class="row second">
-                <img src="./images/bg1.jpg" alt="" class="bg">
-                <div class="centered text-white text-center">
-                    <h4 class="fw-medium discover">  Discover Your Dream Home With Us </h4>
-                    <h1 class="largetext text-center">Find the Perfect <br> Property for Your <br> Lifestyle</h1>
-                    <div class="start">
-                        <button class="search">START SEARCHING</button>
-                    </div>
+              <img src="./images/bg1.jpg" alt="" class="bg" />
+              <div class="centered text-white text-center">
+                <h4 class="fw-medium discover">Discover Your Dream Home With Us</h4>
+                <h1 class="largetext text-center">
+                  Find the Perfect <br />
+                  Property for Your <br />
+                  Lifestyle
+                </h1>
+          
+                <div class="start">
+                  <button class="search" id="startSearchBtn">START SEARCHING</button>
+                </div>
+          
+                <!-- Search Form Section (Initially Hidden) -->
+                <div id="searchSection" style="display: none; margin-top: 25px;">
+                    <form id="searchForm">
+                        <input type="text" placeholder="Enter location" required />
+                        <select>
+                            <option value="">Property Type</option>
+                            <option value="For rent">For Rent</option>
+                            <option value="For Sale">For Sale</option>
+                        </select>
+                        <input type="number" placeholder="Max Budget" required />
+                        <button type="submit" class="search1">SEARCH</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -72,12 +90,13 @@
                 <div class="col-12 col-md-6 imgcol">
                     <img src="./images/sideimg2.jpg" alt="" width="600px" height="500px" class="house-img">
                 </div>
-                <div class="col-12 col-md-6 connecting py-3">
+                <div class="col-12 col-md-6 connecting ">
                     <h1>Connecting people with perfect homes is our passion.</h1>
                     <hr class="line1">
                     <p>With a genuine passion for helping people find their dream homes, we are dedicated to connecting buyers and sellers in the real estate market. Trust us to make your home buying or selling experience seamless and satisfying.</p>
+                    <p id="more-text" style="display:none;">We ensure you the best deals and make your journey easier and more enjoyable.</p>
                     <div class="read-top">
-                        <button class="test my-3">Read More</button>
+                        <button class="test my-3" onclick="toggleText()">Read More</button>
                     </div>
                 </div>
             </div>
@@ -1430,7 +1449,7 @@
                     <hr class="line1">
                     <p>Discover testimonials from satisfied clients who have found <br> their dream properties with Real Estate, the trusted experts <br> in helping you find the perfect place to call home.</p>
                     <div class="read-top">
-                        <button class="test my-3">More Testimonials</button>
+                        <button class="test my-3" id="addReviewBtn">Add Your Review</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 py-5 my-5">
@@ -1440,8 +1459,8 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                        <p class="card-text py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veniam labore perferendis nihil amet illo facilis ullam ut eius! Autem quod natus deserunt aperiam perspiciatis ab nisi dicta, delectus nesciunt!</p>
+                            <span class="fa fa-star"></span>
+                        <p class="card-text py-3">Working with this team was an amazing experience! They truly understood my vision and delivered beyond my expectations. Highly recommend their services!</p>
                         <h6 class="card-subtitle mb-2 text-muted py-2" style="letter-spacing: 2px;">JAMES OLIVER</h6>
                         </div>
                     </div>
@@ -1452,11 +1471,16 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <p class="card-text py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veniam labore perferendis nihil amet illo facilis ullam ut eius! Autem quod natus deserunt aperiam perspiciatis ab nisi dicta, delectus nesciunt!</p>
+                            <p class="card-text py-3">The best investment I made! Their guidance and support helped me find my dream home. The process was smooth, and they were with me every step of the way</p>
                             <h6 class="card-subtitle mb-2 text-muted py-2"  style="letter-spacing: 2px;">JAMES OLIVER</h6>
                         </div>
                     </div>
                 </div>
+            </div>
+             <!-- Hidden Review Form -->
+             <div id="reviewForm" class="hidden py-3">
+                <textarea placeholder="Write your review..." rows="4" style="width: 100%; padding: 10px;"></textarea>
+                <button class="test">Submit</button>
             </div>
         </section>
 

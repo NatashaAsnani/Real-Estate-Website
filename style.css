@@ -45,7 +45,7 @@
     padding-top: 80px;
 }
 .start{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .search{
     border-radius: 25px;
@@ -60,10 +60,43 @@
 .search:hover{
     background-color: rgb(47, 106, 108);
 }
+.search1{
+    border-radius: 25px;
+    background-color: rgb(59, 114, 116);
+    padding: 5px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.search1:hover{
+    background-color: rgb(47, 106, 108);
+}
+
+#searchForm input, #searchForm select{
+    border-radius: 25px;
+    border: none ;
+}
+
+#searchForm select{
+    height: 30px;
+}
+
+#searchForm input::placeholder{
+    text-align: center;
+}
+
+.house-img{
+    border-radius: 25px;
+}
+
 .third{
     padding-top: 80px;
     position: relative;
 }
+
 .line{
     position: absolute;
     width: 80px !important;
@@ -71,6 +104,7 @@
     top: 250px;
     color: rgb(54, 127, 129);
 }
+
 .line4{
     position: absolute;
     width: 80px !important;
@@ -78,6 +112,7 @@
     top: 200px;
     color: rgb(54, 127, 129);
 }
+
 .four h6{
     line-height: 25px;
 }
@@ -90,13 +125,16 @@
 .num{
     color: rgb(37, 115, 118);
 }
+
 .features span{
     letter-spacing: 3px;
 }
+
 .feature1{
     width: 380px;
     border-radius: 25px;
 }
+
 .price{
     color: rgb(54, 127, 129);
     font-weight: bold;
@@ -110,6 +148,7 @@
     width: 80px;
     color: rgb(30, 94, 96);
 }
+
 .testimonial p{
     font-size: larger;
 }
@@ -117,7 +156,7 @@
 .test{
     border-radius: 30px;
     background-color: cadetblue;
-    padding: 15px;
+    padding: 12px;
     padding-left: 35px !important;
     padding-right: 35px !important;
     border: none;
@@ -129,6 +168,13 @@
 .test:hover{
     background-color: rgb(47, 106, 108);
 }
+
+
+/* more testimonial */
+.hidden {
+    display: none;
+  }
+
 
 .card1 p{
     letter-spacing: 1px;

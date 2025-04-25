@@ -37,6 +37,62 @@ navLinks.forEach(link => {
     });
 });
 
+
+// search button
+document.getElementById("startSearchBtn").addEventListener("click", function () {
+    const section = document.getElementById("searchSection");
+    section.style.display = "block";
+    section.scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.getElementById("searchForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // page reload na ho
+  
+    const location = this.querySelector("input[type='text']").value;
+    const propertyType = this.querySelector("select").value;
+    const budget = this.querySelector("input[type='number']").value;
+  
+    alert(`Searching for:
+    Location: ${location}
+    Type: ${propertyType}
+    Max Budget: ${budget}`);
+  });
+  
+
+
+
+// read more text
+function toggleText() {
+    var moreText = document.getElementById("more-text");
+    var btn = document.querySelector(".test");
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        btn.textContent = "Read Less";
+    } else {
+        moreText.style.display = "none";
+        btn.textContent = "Read More";
+    }
+}
+
+// add testimonial
+document.getElementById("addReviewBtn").addEventListener("click", function () {
+    const form = document.getElementById("reviewForm");
+    form.classList.toggle("hidden");
+});
+// form open to write a review
+document.querySelector("#reviewForm button").addEventListener("click", function () {
+    const reviewText = document.querySelector("#reviewForm textarea").value;
+    
+    if (reviewText) {
+        alert("Thank you for your review! Your feedback: " + reviewText); // Show review text
+        document.querySelector("#reviewForm textarea").value = ''; // Clear the form
+        document.getElementById("reviewForm").classList.add("hidden"); // Hide the form again
+    } else {
+        alert("Please write a review before submitting.");
+    }
+});
+
+
 // Functionality for filtering sections based on button clicks
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".filter-btn");
