@@ -45,20 +45,16 @@ document.getElementById("startSearchBtn").addEventListener("click", function () 
     section.scrollIntoView({ behavior: "smooth" });
   });
 
+  // Search form submit
   document.getElementById("searchForm").addEventListener("submit", function (e) {
-    e.preventDefault(); // page reload na ho
-  
-    const location = this.querySelector("input[type='text']").value;
-    const propertyType = this.querySelector("select").value;
-    const budget = this.querySelector("input[type='number']").value;
-  
-    alert(`Searching for:
-    Location: ${location}
-    Type: ${propertyType}
-    Max Budget: ${budget}`);
+    e.preventDefault();
+    const { location, propertyType, budget } = this;
+    alert(`Searching for: 
+      Location: ${location.value}
+      Type: ${propertyType.value}
+      Max Budget: ${budget.value}`);
   });
   
-
 
 
 // read more text
@@ -253,6 +249,16 @@ document.addEventListener("DOMContentLoaded", () => {
         },
     });
 
+    gsap.from("#listings .port", {
+        x: -100,
+        opacity: 0,
+        duration: 3,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: "#listings",
+            start: "top 80%",
+        },
+    });
     // Testimonials Section Animation
     gsap.from("#testimonial .testimonial", {
         x: -50,
