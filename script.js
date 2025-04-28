@@ -185,6 +185,12 @@ document.querySelectorAll(".filter-btn").forEach((btn) => {
 });
 
 
+// Contact form button
+function requestCallBack() {
+    alert("Thank you! We will call you back soon.");
+  }
+
+
 // GSAP animations for different sections with scroll trigger
 document.addEventListener("DOMContentLoaded", () => {
     // Hero Section Animation
